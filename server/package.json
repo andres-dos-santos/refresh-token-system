@@ -3,11 +3,12 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "tsx --watch index.ts"
+    "dev": "tsx --watch index.js"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/bun": "latest",
+    "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.14.8",
     "tsx": "^4.15.7"
   },
@@ -15,6 +16,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@fastify/cookie": "^9.3.1",
     "@fastify/cors": "^9.0.1",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
