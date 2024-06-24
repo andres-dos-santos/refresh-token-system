@@ -1,7 +1,7 @@
 import Fastify from 'fastify'
 import cors from '@fastify/cors'
 
-import { createUser } from './db/users/create-user'
+import { createUser } from './db/users/create-user.js'
 
 const fastify = Fastify()
 
